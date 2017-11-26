@@ -5,6 +5,6 @@
 
 - cascadeDetection: OpenCVのカスケード顔検出とCaffeの物体識別を組み合わせる．
 - fasterRCNN: fasterRCNNを用いた一般物体検出を行う．
-- detectNet: DIGITSのDetectNetを用いて，研究室メンバーの顔写真を学習済みのネットワークで物体検出を行う．
+- detectNet: DIGITSのDetectNetを用いて，研究室メンバーの顔写真に対する学習済みネットワークで物体検出を行う．
 
 クライアントのコードでは，webカメラから撮影した動画を毎フレームごとにHTTP通信でサーバに送信し，受け取った検出結果を画像上にレクタングルで表示する．
